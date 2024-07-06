@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/todo-list-icon.jpg">
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h1>High priority <img src="/images/note-icon.png" alt=""></h1>
+            <div class="row">
+                <input id="add-high-task-input" type="text" placeholder="Create your Task">
+                <button onclick="addHighTask()">Add</button>
+            </div>
+            <ul id="high-task-list">
+            </ul>
+        </div>
+        <div class="todo-app">
+            <h1>Low priority <img src="/images/note-icon.png" alt=""></h1>
+            <div class="row">
+                <input id="add-low-task-input" type="text" placeholder="Create your Task">
+                <button onclick="addLowTask()">Add</button>
+            </div>
+            <ul id="low-task-list">
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
